@@ -3,7 +3,7 @@ var app = express();
 var controller = require('./controller');
 
 var VIEWS_PATH = __dirname;
-var VIEW_ENGINE_NAME = 'jade';
+var VIEW_ENGINE_NAME = 'pug';
 var SETTINGS_VIEWS_PATH = 'views';
 var SETTINGS_VIEW_ENGINE_NAME = 'view engine';
 var PORT = 8000;

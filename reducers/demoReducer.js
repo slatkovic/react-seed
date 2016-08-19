@@ -8,10 +8,11 @@ function demoReducer(state = initialState, action) {
 
   switch (action.type) {
 
-    case Actions.POPULATE_ITEMS: return {
-      ...state,
-      items: action.items
-    };
+    case Actions.POPULATE_ITEMS:
+      return {
+        ...state,
+        items: action.items
+      };
 
     default: return state;
   }

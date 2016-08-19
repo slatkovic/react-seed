@@ -22,7 +22,7 @@ module.exports = {
         loader: ExtractTextPlugin.extract(
           'style',
           'css?modules&importLoaders=2&sourceMap&localIdentName=[name]-[local]-[hash:base64:5]' +
-          '!autoprefixer' +
+          '!postcss' +
           '!sass?outputStyle=expanded&sourceMap'
         )
       },
